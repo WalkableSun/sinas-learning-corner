@@ -10,4 +10,4 @@ tags: page
 
 This is some text parapgraph
 
-<script type="module" src="js/scripts.js"></script>
+
