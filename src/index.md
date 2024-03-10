@@ -1,14 +1,13 @@
 ---
 layout: layout.html
-pageTitle: Sina's Corner
+pageTitle: Sina's Learning Corner
+pageClass: home
 navTitle: Home
 tags: page
 ---
 
 ## Topics
 
-{% for page in collections.page %}
+This is some text parapgraph
 
-  <h2><a href="{{ page.url }}">{{ page.data.pageTitle }}</a></h2>
-  <em>{{ page.date | date: "%Y-%m-%d" }}</em>
-{% endfor %}
+<script type="module" src="js/scripts.js"></script>
