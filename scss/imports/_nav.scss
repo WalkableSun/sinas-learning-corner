@@ -1,11 +1,12 @@
 nav ul {
-    padding: 0;
+    padding: 2;
     list-style: none;
     display: flex;
   }
   
   nav ul a {
     padding: 0.5rem 1rem;
+    background-color: var(--light-blue);
   }
 
   .homelinks {

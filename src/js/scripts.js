@@ -1,5 +1,6 @@
 import {fetchJoke} from "./modules/dadjokes.js";
 
+
 var popupOuter = document.querySelector(".popup-outer");
 var popupInner = document.querySelector(".popup .message");
 
@@ -11,9 +12,6 @@ var avatarContent = `
 function showPopup(event) {
   if (event.target.matches(".avatar")) {
     popupInner.innerHTML = avatarContent;
-    popupOuter.classList.add("open");
-//   } else if(event.target.closest("nav ul")){
-//     popupInner.innerHTML = buttonContent;
     popupOuter.classList.add("open");
   } else if (event.target.matches(".closer, .popup-outer")){
     popupOuter.classList.remove("open");
