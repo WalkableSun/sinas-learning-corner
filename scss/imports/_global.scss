@@ -1,7 +1,4 @@
 
-* {
-  background-color: var(--light-gray);
-}
 
 html {
     --burnt-orange: #d17300;
@@ -26,7 +23,8 @@ body {
     font-size: 100%;
     max-width: 980px;
     margin: 0 auto;
-    color: var(--navy-blue)
+    color: var(--navy-blue);
+    background-color: var(--light-gray);
   }  
 
 a {

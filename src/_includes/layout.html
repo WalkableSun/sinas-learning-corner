@@ -9,13 +9,13 @@
   <body class="{{ pageClass }}">
     <header>
       <h1>{{ pageTitle }}</h1>
-      <img class="avatar" href="#"></img>
+      <a class="avatar" href="#"></a>
     </header>
     <nav aria-label="primary navigation">
         <ul>
           {% for page in collections.page %}
           <li>
-            <a href="{{ page.url | url }}">{{ page.data.navTitle }}</a>
+            <a class="nav-button" href="{{ page.url | url }}">{{ page.data.navTitle }}</a>
           </li>
           {% endfor %}
         </ul>

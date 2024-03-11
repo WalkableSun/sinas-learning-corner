@@ -1,4 +1,4 @@
-import {fetchJoke} from "./modules/dadjokes.js";
+// import {fetchJoke} from "./modules/dadjokes.js";
 
 
 var popupOuter = document.querySelector(".popup-outer");
@@ -10,8 +10,21 @@ var avatarContent = `
 `;
 
 function showPopup(event) {
+
   if (event.target.matches(".avatar")) {
-    popupInner.innerHTML = avatarContent;
+    fetch ("https://icanhazdadjoke.com/",{
+      headers:{
+        'accept':'application/json'
+      }
+    })
+    .then(response => response.json())
+    .then(dadJoke => {
+      popupInner.innerHTML = `
+      <h2>Jokes will appear here</h2>
+      <p>${dadJoke.joke}<p>
+      `; 
+    });
+    
     popupOuter.classList.add("open");
   } else if (event.target.matches(".closer, .popup-outer")){
     popupOuter.classList.remove("open");
