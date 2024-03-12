@@ -1,37 +1,24 @@
-aside#asideMenu {
-    width: 200px;
+aside {
+    
+    min-width: 200px;
+    height: 100vh; /* Full height */
     border-right: 1px solid #ccc;
     padding: 20px;
 }
 
-aside#asideMenu ul {
+aside ul {
     display: flex;
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
-aside#asideMenu ul li a {
-    text-decoration: none;
-    color: #333;
-    display: block;
-    padding: 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+aside ul li {
+    padding: 10px 0;
+    cursor: pointer;
 }
 
-aside#asideMenu ul li a:hover {
-    background-color: #f0f0f0;
-}
-
-main#mainContent {
+main {
     flex-grow: 1;
     padding: 20px;
 }
-
-// .content {
-//     display: none; /* Initially hide all content */
-// }
-
-// .content.active {
-//     display: block; /* Only display the active content */
-// }

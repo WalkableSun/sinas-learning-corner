@@ -12,7 +12,7 @@ function showPopup(event) {
     .then(response => response.json())
     .then(dadJoke => {
       popupInner.innerHTML = `
-      <h2>Daily dad joke:</h2>
+      <h2>Another f***ing dad joke:</h2>
       <p>${dadJoke.joke}<p>
       `; 
     });

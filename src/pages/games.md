@@ -11,4 +11,4 @@ pageClass: games
 > Maps
 > Spot the difference
 
-[Home](/)
+

@@ -6,9 +6,9 @@ navTitle: Home
 tags: page
 ---
 
-## Topics
+## Welcome
+Laborum occaecat aliquip eu nisi duis amet. Adipisicing do sit irure nisi occaecat incididunt adipisicing fugiat ut culpa. Sunt et officia anim nisi non eiusmod ut nulla cupidatat deserunt eiusmod nulla aliquip. Ea adipisicing pariatur magna duis laboris aute tempor.
 
-This is some text parapgraph
 
 <div class="card-container">
         <div class="card">
@@ -23,7 +23,7 @@ This is some text parapgraph
         </div>
         <div class="card">
             <img src="../img/wikipedia-logo.png" alt="the wikipedia logo of a globe consisting of puzzle pieces with symbols written on them">
-            <button class="card-button"><a href="./pages/wiki"><h3>Wiki</h3></a></button>
+            <button class="card-button"><a href="./pages/wiki"><h3>Kid's Wiki</h3></a></button>
             <p>Proident ullamco cupidatat est sunt voluptate non veniam laboris officia et exercitation Lorem aliquip dolor. Nostrud eu occaecat dolore esse sint dolore exercitation ullamco laboris reprehenderit. Voluptate enim consequat proident tempor ex eiusmod id ipsum sunt.</p>
         </div>
         <div class="card">

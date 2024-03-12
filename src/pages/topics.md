@@ -9,4 +9,3 @@ pageClass: topics
 > Love
 > Philosophy
 
-[Home](/)
