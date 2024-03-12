@@ -2,8 +2,10 @@ html {
   --burnt-orange: #d17300;
   --light-orange: #dd9348;
   --navy-blue: #38367d;
+  --medium-blue: #55629a;
   --light-blue: #96a1d2;
   --dark-gray: #333333;
+  --medium-gray: #6a6262;
   --light-gray: #e6e5de;
   --max-width: 740px;
   --breakpoint: 540px;
@@ -25,13 +27,9 @@ body {
 }
 
 a {
-  color: var(--dark-gray);
+  color: #fff;
   text-decoration: none;
   transition: color 0.5s linear;
-}
-
-li > h4 {
-  margin-top: 12px;
 }
 
 img {
@@ -91,22 +89,22 @@ a.avatar:hover {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
-  background-color: #007bff; /* Bootstrap primary button color */
+  background-color: var(--medium-gray);
   color: white;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  border: 1px solid transparent;
+  border: 3px solid var(--light-orange);
   border-radius: 5px;
-  text-decoration: none; /* Removes underline from links */
-  transition: background-color 0.2s, color 0.2s; /* Smooth transition */
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .nav-button:hover, .nav-button:focus {
-  background-color: #0056b3; /* Darker shade on hover/focus */
+  background-color: var(--navy-blue);
   color: #ffffff;
-  text-decoration: none; /* Keeps underline off on hover/focus */
-  outline: none; /* Removes the outline on focus */
+  text-decoration: none;
+  outline: none;
 }
 
 nav ul {
@@ -115,28 +113,16 @@ nav ul {
   display: flex;
 }
 
+@media (min-width: 640px) {
+  .content {
+    display: flex;
+  }
+}
 .content {
-  margin-top: 2rem;
-  padding: 1rem;
+  margin-top: 1rem;
+  padding: 3rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  border-left: 2px solid rgba(0, 126, 182, 0.431372549);
-  border-radius: 4px;
-}
-
-button {
-  border: none;
-  padding: 0.5rem 1rem;
-  background: #007eb6;
-  color: #fff;
-  border-radius: 4px;
-  font-size: 1rem;
-  width: 4rem;
-}
-
-.pics .content img {
-  width: 60%;
-  padding: 1rem;
 }
 
 .wiki img {
@@ -192,6 +178,72 @@ button {
 
 .popup-outer.open .popup {
   transform: translateY(0);
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 3px solid var(--medium-blue);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-button {
+  padding: 0px 10px;
+  margin: 5px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  border: 3px solid var(--medium-blue);
+  background-color: var(--medium-blue);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+aside#asideMenu {
+  width: 200px;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+}
+
+aside#asideMenu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+aside#asideMenu ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+aside#asideMenu ul li a:hover {
+  background-color: #f0f0f0;
+}
+
+main#mainContent {
+  flex-grow: 1;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

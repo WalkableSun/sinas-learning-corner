@@ -4,8 +4,10 @@ html {
     --burnt-orange: #d17300;
     --light-orange: #dd9348;
     --navy-blue: #38367d;
+    --medium-blue: #55629a;
     --light-blue: #96a1d2;
     --dark-gray: #333333;
+    --medium-gray: #6a6262;
     --light-gray: #e6e5de;
     --max-width: 740px;
     --breakpoint: 540px;
@@ -28,14 +30,9 @@ body {
   }  
 
 a {
-    color: var(--dark-gray);
+    color: #fff;
     text-decoration: none;
     transition: color 0.5s linear;
-  }
-
-
-li > h4 {
-    margin-top: 12px;
   }
 
 img {

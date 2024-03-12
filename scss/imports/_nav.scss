@@ -1,23 +1,25 @@
+
+
 .nav-button {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
-  background-color: #007bff; /* Bootstrap primary button color */
+  background-color: var(--medium-gray);
   color: white;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  border: 1px solid transparent;
+  border: 3px solid var(--light-orange);
   border-radius: 5px;
-  text-decoration: none; /* Removes underline from links */
-  transition: background-color 0.2s, color 0.2s; /* Smooth transition */
+  text-decoration: none; 
+  transition: background-color 0.2s, color 0.2s; 
 }
 
 .nav-button:hover, .nav-button:focus {
-  background-color: #0056b3; /* Darker shade on hover/focus */
+  background-color: var(--navy-blue);
   color: #ffffff;
-  text-decoration: none; /* Keeps underline off on hover/focus */
-  outline: none; /* Removes the outline on focus */
+  text-decoration: none; 
+  outline: none; 
 }
 
 
@@ -26,15 +28,6 @@ nav ul {
     list-style: none;
     display: flex;
   }
-  
-//   nav ul a {
-//     padding: 0.5rem 1rem;
-//     background-color: var(--light-blue);
-//   }
-
-//   .homelinks {
-//     margin-bottom: 0;
-//   }
   
 
   
