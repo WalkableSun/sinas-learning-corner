@@ -1,6 +1,6 @@
 ---
 layout: layout.html
-pageTitle: Sina's Corner
+pageTitle: Sina's Learning Corner
 pageClass: home
 navTitle: Home
 tags: page
