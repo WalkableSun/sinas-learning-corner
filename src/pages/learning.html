@@ -1,0 +1,39 @@
+---
+pageTitle: Learning
+navTitle: Learning
+pageClass: learning
+---
+
+<h2>Here will be a SPA for various learning topics</h2>
+<p>Ipsum eiusmod ipsum excepteur cupidatat dolor Lorem fugiat incididunt incididunt. Qui eiusmod ullamco ullamco aliquip ut officia duis non. Fugiat tempor sint Lorem consectetur est veniam exercitation elit consectetur occaecat culpa anim excepteur. Veniam nostrud aliqua cupidatat non tempor culpa aute.</p>
+
+<div class="spa-container">
+    <aside class="spa-menu">
+            <ul>
+                <li>
+                    <details>
+                    <summary>Math</summary>
+                    <button id="algebra">Algebra</button>
+                </details>
+                </li>
+                <li><button id="history">History</button></li>
+                <li>Geography</li>
+                <li>English</li>
+            </ul>
+    </aside>
+
+<main class="spa-content">
+        <!-- The content will be loaded here -->
+    </main>
+</div>
+
+<script>
+let currentButton = document.querySelector("#history")
+function addHistory(){
+ document.querySelector(".spa-content").innerHTML=`
+<h2>History</h2>
+ `   
+}
+currentButton.addEventListener("click", addHistory)
+
+</script>
