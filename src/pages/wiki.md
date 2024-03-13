@@ -2,6 +2,7 @@
 pageTitle: Wiki
 pageClass: wiki
 navTitle: Wiki
+permalink: /wiki
 singleImage: /img/Frans_Hals,_Portrait_of_René_Descartes.jpg
 ---
 

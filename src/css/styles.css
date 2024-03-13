@@ -158,22 +158,22 @@ nav a:hover, nav a:focus {
 
 .learning nav a[href*=learning] {
   color: var(--light-orange) !important;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .topics nav a[href*=topics] {
   color: var(--light-orange) !important;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .wiki nav a[href*=wiki] {
   color: var(--light-orange) !important;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .games nav a[href*=games] {
   color: var(--light-orange) !important;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 640px) {
@@ -310,6 +310,20 @@ aside ul {
   font-size: 0.875rem;
   box-shadow: 3px 3px 3px #ddd;
   border-radius: 4px;
+}
+
+details button {
+  padding: 0px 10px;
+  margin: 5px;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+  border: 1px solid var(--medium-blue);
+  background-color: var(--light-orange);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 /*# sourceMappingURL=styles.css.map */

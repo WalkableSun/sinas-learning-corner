@@ -31,3 +31,16 @@ aside {
     border-radius: 4px;
   }
   
+  details button {
+    padding: 0px 10px;
+    margin: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+    border: 1px solid var(--medium-blue);
+    background-color: var(--light-orange);
+    border-radius: 5px;
+    text-decoration: none; 
+    transition: background-color 0.2s, color 0.2s; 
+  }
