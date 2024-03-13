@@ -1,5 +1,5 @@
 ---
-layout: layout.html
+layout: layouts/layout.html
 pageTitle: Sina's Learning Corner
 pageClass: home
 navTitle: Home

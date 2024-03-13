@@ -1,4 +1,4 @@
 {
-	"layout": "layout.html",
-	"tags": ["page", "nav", "test"]
+	"layout": "layouts/layout.html",
+	"tags": ["page", "nav"]
 }
