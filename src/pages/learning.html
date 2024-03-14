@@ -82,7 +82,7 @@ permalink: /learning
  
 <script>
 function addContent() {
-    fetch('learning-content/algebra.html').then(response => response.text())
+    fetch('/pages/learning-content/algebra.html').then(response => response.text())
 
     .then(([algebraHtml]) => {
         document.querySelector('.spa-content').innerHTML = algebraHtml;
